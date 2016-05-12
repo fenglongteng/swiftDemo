@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		C903AECE1CE2DAFE0033A8F8 /* CarShare.m in Sources */ = {isa = PBXBuildFile; fileRef = C903AECD1CE2DAFE0033A8F8 /* CarShare.m */; };
+		C91AA44E1CE4B4AB00B1D665 /* PersonShare.swift in Sources */ = {isa = PBXBuildFile; fileRef = C91AA44D1CE4B4AB00B1D665 /* PersonShare.swift */; };
 		C9B5BCEB1CE1E2A300FA2EA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B5BCEA1CE1E2A300FA2EA8 /* AppDelegate.swift */; };
 		C9B5BCED1CE1E2A300FA2EA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9B5BCEC1CE1E2A300FA2EA8 /* ViewController.swift */; };
 		C9B5BCF01CE1E2A300FA2EA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9B5BCEE1CE1E2A300FA2EA8 /* Main.storyboard */; };
@@ -25,6 +26,7 @@
 		C903AECC1CE2DAFE0033A8F8 /* CarShare.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CarShare.h; sourceTree = "<group>"; };
 		C903AECD1CE2DAFE0033A8F8 /* CarShare.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CarShare.m; sourceTree = "<group>"; };
 		C903AED11CE326360033A8F8 /* bridgeHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = bridgeHeader.h; sourceTree = "<group>"; };
+		C91AA44D1CE4B4AB00B1D665 /* PersonShare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonShare.swift; sourceTree = "<group>"; };
 		C9B5BCE71CE1E2A300FA2EA8 /* SwiftProduct1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftProduct1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9B5BCEA1CE1E2A300FA2EA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C9B5BCEC1CE1E2A300FA2EA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 				C903AECC1CE2DAFE0033A8F8 /* CarShare.h */,
 				C903AECD1CE2DAFE0033A8F8 /* CarShare.m */,
 				C903AED11CE326360033A8F8 /* bridgeHeader.h */,
+				C91AA44D1CE4B4AB00B1D665 /* PersonShare.swift */,
 			);
 			name = OC;
 			sourceTree = "<group>";
@@ -240,6 +243,7 @@
 				C9B5BCFD1CE229F700FA2EA8 /* TwoViewController.swift in Sources */,
 				C9B5BCFF1CE2427800FA2EA8 /* Login.swift in Sources */,
 				C9CE584A1CE3768B003082C6 /* MeShare.swift in Sources */,
+				C91AA44E1CE4B4AB00B1D665 /* PersonShare.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

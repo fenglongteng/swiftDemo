@@ -17,8 +17,10 @@ class ViewController: UIViewController, UIScrollViewDelegate, MyDelegate {
     var carshare: CarShare?
     @IBOutlet weak var delegateLabel: UILabel!
     
+    let me: CarShare = CarShare.shareMe()
+    var you: CarShare = CarShare.shareMe()
     
-
+  
     override func viewDidLoad() {
         super.viewDidLoad()
          self.carshare = CarShare.shareMe()
@@ -33,6 +35,9 @@ class ViewController: UIViewController, UIScrollViewDelegate, MyDelegate {
         NSRunLoop.mainRunLoop().addTimer(myTimer, forMode: NSRunLoopCommonModes)
         scrollView.delegate = self
         self.navigationController?.navigationBar.backgroundColor = UIColor.init(red: 1, green: 1, blue: 1, alpha: 1)
+        me.me = "youyou"
+        
+        print(me.me)
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -48,7 +53,9 @@ class ViewController: UIViewController, UIScrollViewDelegate, MyDelegate {
         self.myTimer.invalidate()
         myTimer =  nil
     }
-
+    
+    
+    
     func scrollViewDidScroll(scrollView: UIScrollView) {
         if scrollView.contentOffset.y > 500 && scrollView.contentOffset.y < 700{
             //这里高度变化引起试图要变化  有边框闪烁现象 有bug
