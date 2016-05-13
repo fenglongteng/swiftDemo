@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         let   singlecaseDemo1 = SingleCaseDemo.singleCaseDemo
         //numer 输出结果两次都是二 证明singleCaseDemo方法只执行了一次
         print(singlecaseDemo.numbr, singlecaseDemo1.numbr)
-        let myButton = UIButton(type: UIButtonType.Custom)
+        _ = UIButton(type: UIButtonType.Custom)
         
         
         // Do any additional setup after loading the view, typically from a nib.
