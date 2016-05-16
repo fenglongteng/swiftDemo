@@ -20,7 +20,7 @@ class ViewController: UIViewController, UIScrollViewDelegate, MyDelegate {
     let me: CarShare = CarShare.shareMe()
     var you: CarShare = CarShare.shareMe()
     
-  
+    
     override func viewDidLoad() {
         super.viewDidLoad()
          self.carshare = CarShare.shareMe()
@@ -37,6 +37,8 @@ class ViewController: UIViewController, UIScrollViewDelegate, MyDelegate {
         self.navigationController?.navigationBar.backgroundColor = UIColor.init(red: 1, green: 1, blue: 1, alpha: 1)
         me.me = "youyou"
         
+        print(me.me)
+        //检验sourceTress
         print(me.me)
         // Do any additional setup after loading the view, typically from a nib.
     }
